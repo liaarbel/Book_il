@@ -1,5 +1,8 @@
 from flask import Flask
+import pathlib
 
-app = Flask(__name__, static_folder=r"E:\Docs\Lia\Python\week12\app\static")
+cdir = pathlib.Path(__file__).parent
+
+app = Flask(__name__, static_folder=str(cdir/"static"))
 
 from app import views
