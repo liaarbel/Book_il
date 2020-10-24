@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/static/images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+    <title>Book_.il</title>
+  </head>
+  <body>
+    <header class="grid1">
+        <h1>Book_.il</h1>
+        <div id="search">
+            <form id="search-form" class="row" method="GET" action="page2">
+              <div class="col-auto">
+                <label for="languages" class="visually-hidden">שם הספר</label>
+                <input class="form-control" id="languages" name="book_name" type="text" placeholder="שם הספר" tabindex=0 autofocus>
+              </div>
+                <div class="col-auto">
+                <button type="submit" >חיפוש</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li>
+                <a href="">בית</a>
+            </li>
+            <li>
+                <a href="">ספרי החודש</a>
+            </li>
+            <li>
+                <a href="">סופרי החודש</a>
+            </li>
+            <li>
+                <a href="">המלצות</a>
+            </li>
+            <li>
+                <a href="#footerlink">קצת עלינו</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="box border">
+            <img src="/static/images/books1.jpg" alt="תמונה של ספרים">
+            <h2>קריאה</h2>
+            <p>הסברים הסברים</p>
+        </div><br/>
+        <div class="box">
+        <section>
+            <article class="flexer border">
+                <h2 class="align">סופרי החודש</h2>
+                <a href=""><img src="/static/images/writers.jpg" alt="תמונה של ספרים" class="imgLink"></a>
+            </article>
+            <article class="flexer border">
+                <h2 class="align">ספרי החודש</h2>
+                <a href=""><img src="/static/images/books3.jpg" alt="תמונה של ספרים" class="imgLink"></a>
+            </article>
+            <article class="flexer border">
+                <h2 class="align">המלצות</h2>
+                <a href=""><img src="/static/images/books2.jpg" alt="תמונה של ספרים" class="imgLink"></a>
+            </article>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <div class="box border">
+            <img src="/static/images/about us.jpg" alt="Our">
+            <h2>קצת עלינו</h2>
+            <p>הסברים הסברים</p>
+        </div>
+        <div class="box">
+            <p><strong>קרדיטים:</strong> אנשים אנשים וקורס פייתון מדהים</p>
+            
+            <a id="footerlink"></a>
+        </div>
+    </footer>
+  </body>
+</html>

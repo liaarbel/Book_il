@@ -1,0 +1,174 @@
+html {
+    text-align: right;
+    direction: rtl;  
+}
+
+@font-face{
+    font-family: "Secular one";
+    src: url("/static/fonts/SecularOne-Regular.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/static/images/background.jpg");
+    color: rgb(18, 17, 58);
+    text-align: right;
+    margin: 0;
+    font-family: "Secular one";
+    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+}
+
+@font-face{
+    font-family: "Blue eye";
+    src: url("/static/fonts/Blue Eyes - Personal Use.otf") format("truetype");
+}
+
+.buttonColors {
+    background-color: #caf8f8;
+    border-color: #9df1e6;
+}
+
+h1 {
+    font-family: "Blue eye";
+    font-size: 100px;
+    color: #b3ffe6;
+    text-align: right;
+    letter-spacing: normal;
+    padding-right: 5%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2 {
+    font-family: "Secular one";
+    letter-spacing: normal;
+}
+
+nav {
+    direction: rtl;
+    background-color: #9df1e6;
+    padding: .5em;
+    border-bottom: rgb(166, 169, 209);
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    color: rgb(18, 17, 58);
+    text-align: center;
+    font-family: "Secular one";
+    text-decoration: none;
+    padding: .5em 1em;
+}
+
+
+input[type="search"] {
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: inherit;
+}
+
+button[type="submit"] {
+    padding: 5px;
+    background-color:#b3ffe6;
+    border: 5px;
+    border-radius: 5px;
+    color: rgb(18, 17, 58);
+    font-size: inherit;
+    font-family: "Secular one";
+}
+
+.border {
+    background-color: rgba(202, 248, 248, 0.7);
+    border-style: solid;
+    border-color: #9df1e6;
+    border-radius: 10px;
+}
+
+div {
+    margin-top: 20px;
+    height: 100px;
+    padding: 20px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-gap: 60px;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    overflow: visible;
+    margin-right: 15px;
+    width: 250px;
+    height: 260px;
+    border-radius: 50px;
+    padding: 1em;
+    float: left;
+}
+
+header {
+    align-items: flex-start;
+}
+
+.box {
+    width: 97%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 3px;
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+section {
+    display: flex;
+}
+
+.flexer {
+    padding: 10px;
+    margin: 50px;
+    flex-direction: column-reverse;
+}
+
+.imgLink {
+    max-width: 100%;
+    display: block;
+    overflow: visible;
+    margin-right: 15px;
+    width: 300px;
+    height: 320px;
+    border-radius: 60%;
+    padding: 1em;
+    float: center;
+}
+
+@font-face {
+    font-family: "VarelaRound";
+    src: url('/static/fonts/VarelaRound-Regular.ttf');
+}
+
+p {
+    font-family: "VarelaRound";
+}
